@@ -1,4 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'GothamBlack';
   src: url("../fonts/GothamBlack.eot");
@@ -14,6 +69,35 @@
 }
 
 .header {
+  width: 100%;
   padding-top: 20px;
-  height: 70px;
+  height: 94px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header .header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__inner nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__inner nav .nav__link {
+  font-size: 13.5px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #394B50;
+  border-radius: 4px;
+  font-family: "Lato", sans-serif;
+  padding: 10px 20px;
+}
+.header .header__inner nav .nav__link .nav__link:first-child {
+  margin-left: 0;
+}
+.header .header__inner nav .nav__link:hover {
+  background-color: #FFC155;
 }
