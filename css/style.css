@@ -91,12 +91,111 @@ a {
   font-weight: normal;
   color: #394B50;
   border-radius: 4px;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 10px 20px;
+  transition: background-color .2s linear;
 }
 .header .header__inner nav .nav__link .nav__link:first-child {
   margin-left: 0;
 }
 .header .header__inner nav .nav__link:hover {
   background-color: #FFC155;
+}
+
+.section {
+  padding: 80px 0;
+  background-color: #709DCA;
+  padding-bottom: 0;
+}
+.section .section__header {
+  width: 100%;
+  max-width: 746px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section .section__header .section__title {
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.section .section__header .section__text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.section .form__header {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+.section .form__header .form__item {
+  width: 25%;
+  position: relative;
+}
+.section .form__header .form__item input {
+  font-size: 14px;
+  width: 284px;
+  padding-left: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-right: 10px;
+}
+.section .form__header .form__item input:placeholder {
+  color: #ccc;
+}
+.section .form__header .form__item i {
+  padding: 15px 13px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.section .form__header .btn {
+  text-transform: uppercase;
+  padding: 16px 25px 16px 25px;
+  font-size: 14px;
+  background-color: #FFC155;
+  color: #ffffff;
+  font-weight: normal;
+  transition: backgraun .2s linear;
+  margin-bottom: 345px;
+}
+.section .form__header .btn:hover {
+  background-color: #e9a634;
+}
+.section .slider__header {
+  width: 100%;
+  max-width: 675px;
+  margin: 0 auto;
+  position: relative;
+}
+.section .slider__header .photo__slider {
+  position: absolute;
+  display: block;
+  bottom: -80px;
+  left: 0;
+  z-index: 1;
+}
+.section .slider_footer {
+  position: relative;
+}
+.section .slider_footer .slider {
+  text-align: center;
+  font-size: 5;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: transparent;
+  background: #fff;
+  transition: background-color .2s linear;
+}
+.section .slider_footer .slider:hover {
+  border: 1px solid #3FB5E2;
 }
