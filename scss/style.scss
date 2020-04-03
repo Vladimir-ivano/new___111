@@ -159,9 +159,12 @@ $bc_1   :#709DCA;
   justify-content: space-around;
   flex-wrap: wrap;
 margin: 0 20px;
+margin-bottom: 345px;
+
   .form__item{
     width: 25%;
     position: relative;
+ 
 
 
     input{
@@ -197,7 +200,7 @@ margin: 0 20px;
     color: $color_3;
     font-weight: normal;
 transition: backgraun .2s linear;
-margin-bottom: 345px;
+
     &:hover{
       background-color:rgb(233, 166, 52);
     }
