@@ -323,18 +323,18 @@ margin-bottom: 20px;
 
 // about
 .about{
-  background-image: url(../img/work.jpg);
-  background-repeat:no-repeat;
-  background-position: left;
-  height: 624px;
+  background: url(../img/work.jpg)
+  center left no-repeat;
+  background-size: 50% 100%;
+ 
+
 
   .about__inner{
-    padding-left: 50%;
-
+    height: 100%;
+align-items: center;
     .about__content{
-     
       background-color: $bc;
-
+padding-left: calc(50%+78px);
       .about__title{
         font-size: 30px;
         font-family: $ff2;
