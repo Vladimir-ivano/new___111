@@ -256,7 +256,7 @@ a {
 }
 
 .about {
-  background: url(../img/work.jpg) center left no-repeat;
+  background: #FFC155 url(../img/work.jpg) center left no-repeat;
   background-size: 50% 100%;
 }
 .about .about__inner {
