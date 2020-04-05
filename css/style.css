@@ -256,7 +256,7 @@ a {
 }
 
 .about {
-  background-image: url(/img/work.jpg);
+  background-image: url(../img/work.jpg);
   background-repeat: no-repeat;
   background-position: left;
   height: 624px;
@@ -265,8 +265,6 @@ a {
   padding-left: 50%;
 }
 .about .about__inner .about__content {
-  display: flex;
-  padding-left: 50%;
   background-color: #FFC155;
 }
 .about .about__inner .about__content .about__title {
