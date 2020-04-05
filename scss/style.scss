@@ -334,8 +334,7 @@ margin-bottom: 20px;
     display: flex;
 align-items: center;
     .about__content{
-      background-color: $bc;
-padding-left: calc(50%+78px);
+padding-left: calc(50% + 78px);
       .about__title{
         font-size: 30px;
         font-family: $ff2;
