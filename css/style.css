@@ -262,6 +262,7 @@ a {
 }
 .about .about__inner {
   height: 100%;
+  display: flex;
   align-items: center;
 }
 .about .about__inner .about__content {
