@@ -91,7 +91,7 @@ a {
   font-weight: normal;
   color: #394B50;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: "lato", sans-serif;
   padding: 10px 20px;
   transition: background-color .2s linear;
 }
@@ -278,7 +278,7 @@ a {
 }
 .about .about__inner .about__content .about__text {
   font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: normal;
   line-height: 1.8;
   color: #ffffff;
@@ -290,4 +290,105 @@ a {
   padding: 13px 31px;
   color: #ffffff;
   border: 1px solid #E7AD48;
+  transition: background .2s linear;
+}
+.about .about__inner .about__content .btn--about:hover {
+  background-color: #e9a634;
+}
+
+.section--prise {
+  padding: 134px 0 164px 0;
+  background-color: #E7EDF3;
+}
+.section--prise .prise {
+  width: 100%;
+  max-width: 746px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section--prise .prise .prise--title {
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #394B50;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.section--prise .prise .prise--text {
+  color: #394B50;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 85px;
+}
+.section--prise .prise__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.section--prise .prise__inner .prise__item {
+  padding: 0;
+  flex-basis: calc(100%/3);
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section--prise .prise__inner .prise__item .prise__colmn {
+  width: 380px;
+  height: 440px;
+  background-color: #ffffff;
+  border: 1px solid #CCD5DF;
+  color: #818B95;
+  transition: background .2s linear;
+}
+.section--prise .prise__inner .prise__item .title__prise {
+  margin-top: 54px;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: "lato", sans-serif;
+}
+.section--prise .prise__inner .prise__item .suptitle__prise {
+  margin-top: 22px;
+  color: #FFC155;
+  font-size: 60px;
+}
+.section--prise .prise__inner .prise__item .suptitle__prise span {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.section--prise .prise__inner .prise__item p {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.section--prise .prise__inner .prise__item .prise__work {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 16px;
+}
+.section--prise .prise__inner .prise__item .prise__work:before {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 323px;
+  background-color: #818B95;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.section--prise .prise__inner .prise__item .prise__work:before::hover::before {
+  background-color: #ffffff;
+}
+.section--prise .prise__inner .prise__item .prise__work:last-child {
+  margin-bottom: 20px;
+}
+.section--prise .prise__inner .prise__item .btn--prise {
+  padding: 13px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #FFC155;
+  color: #ffffff;
+  transition: background .2s linear;
+}
+.section--prise .prise__inner .prise__item .btn--prise:hover {
+  background-color: #e9a634;
 }
