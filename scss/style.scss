@@ -407,23 +407,40 @@ padding-left: calc(50% + 78px);
   text-align: center;
   margin-bottom: 25px;
 
+ z-index: 1;
+
   .prise__colmn{
     width: 380px;
     height: 440px;
+    display: block;
+   
     background-color: $color_3;
     border: 1px solid #CCD5DF;
     color: $color_1;
-    transition: background .2s linear;
-
+opacity: 1;
+   
+-webkit-transform: scale(1,1);
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 550ms;
+-moz-transform: scale(1,1);
+-moz-transition-timing-function: ease-out;
+-moz-transition-duration: 550ms;
     &:hover{
-      
+      background-color: $bc_1;
+      color: #fff;
+      -webkit-transform: scale(1,1.1);
+      -webkit-transition-timing-function: ease-out;
+      -webkit-transition-duration: 550ms;
+      -moz-transform: scale(1.2,1.2);
+      -moz-transition-timing-function: ease-out;
+      -moz-transition-duration: 550ms;
     }
   }
 
   .title__prise{
     margin-top: 54px;
     text-transform: uppercase;
-    
+    opacity: .7;
     font-size: 25px;
     line-height: 22px;
     font-weight: 400;
@@ -434,17 +451,22 @@ padding-left: calc(50% + 78px);
     margin-top: 22px;
     color: $bc ;
     font-size: 60px;
-
+    opacity: .7;
+    transform: background .2s linear;
     span{
       font-size: 40px;
       margin-bottom: 20px;
+      transform: background .2s linear;
+    }
+    &:hover{
+     color: #fff;
     }
   }
 
   p{
     text-transform: uppercase;
     font-size: 20px;
-    
+    opacity: .7;
     margin-bottom: 30px;
   }
 
