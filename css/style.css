@@ -330,7 +330,6 @@ a {
   flex-basis: calc(100%/3);
   text-align: center;
   margin-bottom: 25px;
-  z-index: 1;
 }
 .section--prise .prise__inner .prise__item .prise__colmn {
   width: 380px;
@@ -339,7 +338,6 @@ a {
   background-color: #ffffff;
   border: 1px solid #CCD5DF;
   color: #818B95;
-  opacity: 1;
   -webkit-transform: scale(1, 1);
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 550ms;
@@ -360,26 +358,22 @@ a {
 .section--prise .prise__inner .prise__item .title__prise {
   margin-top: 54px;
   text-transform: uppercase;
-  opacity: .5;
   font-size: 25px;
   line-height: 22px;
   font-weight: 400;
   font-family: "lato", sans-serif;
 }
 .section--prise .prise__inner .prise__item .suptitle__prise {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   margin-top: 22px;
   color: #FFC155;
   font-size: 60px;
-  opacity: .7;
-  transform: background .2s linear;
 }
 .section--prise .prise__inner .prise__item .suptitle__prise span {
   font-size: 40px;
-  margin-bottom: 20px;
-  transform: background .2s linear;
-}
-.section--prise .prise__inner .prise__item .suptitle__prise:hover {
-  color: #fff;
+  padding-bottom: 20px;
 }
 .section--prise .prise__inner .prise__item p {
   text-transform: uppercase;
