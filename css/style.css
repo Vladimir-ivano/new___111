@@ -413,3 +413,56 @@ a {
 .section--prise .prise__inner .prise__item .btn--prise:hover {
   background-color: #e9a634;
 }
+
+.section--work {
+  background-color: #fff;
+  padding: 135px 0 126px 0;
+}
+.section--work .work {
+  width: 100%;
+  max-width: 746px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section--work .work .title--work {
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #394B50;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.section--work .work .text--work {
+  color: #394B50;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 69px;
+}
+.section--work .work__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section--work .work__inner .work__item {
+  text-align: center;
+  width: 25%;
+  margin: 20px 0px;
+  padding: 0 25px;
+}
+.section--work .work__inner .icon__work {
+  margin-bottom: 90px;
+}
+.section--work .work__inner .work__title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #394B50;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+.section--work .work__inner .work__text {
+  font-size: 13px;
+  line-height: 22px;
+  color: #394B50;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
