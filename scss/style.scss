@@ -569,7 +569,8 @@ opacity: .7;
   font-weight: normal;
 }
 }
-
+.button{
+  text-align: center;
 .btn--work{
   text-align: center;
   padding: 15px 25px;
@@ -581,6 +582,7 @@ opacity: .7;
   &:hover{
     background-color: rgb(233, 166, 52);
   }
+}
 }
 }
 
@@ -617,14 +619,14 @@ opacity: .7;
 .clients__inner{
   display: flex;
   flex-wrap: wrap;
+justify-content: flex-end;
   
 
 .clients__item{
   webkit-flex-basis: 560px; 
 flex-basis: 560px;
   margin-bottom: 20px;
-
-  
+  margin-right: 10px;
 
 .clients__prof{
   background-color: #fff;
@@ -662,5 +664,5 @@ flex-basis: 560px;
     }
   }
  }
- }
+}
 }

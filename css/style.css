@@ -466,7 +466,10 @@ a {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
 }
-.section--work .btn--work {
+.section--work .button {
+  text-align: center;
+}
+.section--work .button .btn--work {
   text-align: center;
   padding: 15px 25px;
   color: #fff;
@@ -475,7 +478,7 @@ a {
   background-color: #FFC155;
   transition: background .2s linear;
 }
-.section--work .btn--work:hover {
+.section--work .button .btn--work:hover {
   background-color: #e9a634;
 }
 
@@ -506,11 +509,13 @@ a {
 .section--clients .clients__inner {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .section--clients .clients__inner .clients__item {
   webkit-flex-basis: 560px;
   flex-basis: 560px;
   margin-bottom: 20px;
+  margin-right: 10px;
 }
 .section--clients .clients__inner .clients__item .clients__prof {
   background-color: #fff;
