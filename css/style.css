@@ -445,7 +445,7 @@ a {
 .section--work .work__inner .work__item {
   text-align: center;
   width: 25%;
-  margin: 20px 0px;
+  margin: 87px 0px;
   padding: 0 25px;
 }
 .section--work .work__inner .icon__work {
@@ -465,4 +465,82 @@ a {
   color: #394B50;
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
+}
+.section--work .btn--work {
+  text-align: center;
+  padding: 15px 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #FFC155;
+  transition: background .2s linear;
+}
+.section--work .btn--work:hover {
+  background-color: #e9a634;
+}
+
+.section--clients {
+  padding: 136px 0 140px 0;
+  background-color: #FFC155;
+}
+.section--clients .clients {
+  width: 100%;
+  max-width: 746px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section--clients .clients .title--clients {
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.section--clients .clients .text--clients {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+.section--clients .clients__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section--clients .clients__inner .clients__item {
+  webkit-flex-basis: 560px;
+  flex-basis: 560px;
+  margin-bottom: 20px;
+}
+.section--clients .clients__inner .clients__item .clients__prof {
+  background-color: #fff;
+  padding-left: 161px;
+  position: relative;
+}
+.section--clients .clients__inner .clients__item .clients__prof .clients__photo {
+  border-radius: 50%;
+  position: absolute;
+  top: 42px;
+  left: 20px;
+  z-index: 1;
+}
+.section--clients .clients__inner .clients__item .clients__prof .clients__text {
+  font-size: 13px;
+  color: #7B7B7B;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+.section--clients .clients__inner .clients__item .clients__prof .clents__name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "lato", sans-serif;
+  color: #D6DDDF;
+  padding-bottom: 50px;
+}
+.section--clients .clients__inner .clients__item .clients__prof .clents__name span {
+  color: #F6772C;
 }
