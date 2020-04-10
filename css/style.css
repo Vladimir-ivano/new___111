@@ -128,7 +128,6 @@ a {
   margin-bottom: 20px;
 }
 .section .form__header {
-  display: -webkit-flex;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -422,9 +421,11 @@ a {
 .section--work .work__inner {
   display: flex;
   align-items: flex-start;
+  background: url(../img/2.png) center 45% no-repeat;
 }
 .section--work .work__inner .work__grup {
   display: flex;
+  background: url(../img/1.png) center 15% no-repeat;
 }
 .section--work .work__inner .work__item {
   text-align: center;
@@ -535,7 +536,7 @@ a {
 
 .section--map {
   padding: 154px 0;
-  background-color: #fff;
+  background-color: #ccc;
 }
 .section--map .map {
   width: 100%;
@@ -556,4 +557,11 @@ a {
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 40px;
+}
+.section--map .form__map {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 110px;
+  margin-bottom: 20px;
 }

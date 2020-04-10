@@ -158,7 +158,6 @@ $bc_2:#E7EDF3 ;
     }
 
     .form__header {
-      display        : -webkit-flex;
       display        : flex;
       justify-content: space-around;
       flex-wrap      : wrap;
@@ -501,8 +500,11 @@ padding-left: calc(50% + 78px);
 .work__inner{
   display: flex;
   align-items: flex-start;
+  background: url(../img/2.png) center 45% no-repeat;
   .work__grup{
     display: flex;
+    background: url(../img/1.png) center 15% no-repeat;
+    
     
   }
 
@@ -633,7 +635,7 @@ flex-basis: 560px;
 
 .section--map{
   padding: 154px 0;
-  background-color: #fff;
+  background-color: #ccc;
 
   .map{
     width     : 100%;
@@ -658,4 +660,12 @@ flex-basis: 560px;
       margin-bottom: 40px;
     } 
   }
+  .form__map{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap      : wrap;
+    margin         : 0 110px;
+    margin-bottom: 20px;
+  }
+
 }
