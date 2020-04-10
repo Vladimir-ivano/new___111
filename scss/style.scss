@@ -500,15 +500,14 @@ padding-left: calc(50% + 78px);
 
 .work__inner{
   display: flex;
-  flex-wrap: wrap;
-align-items: flex-start;
-
+flex-wrap: wrap;
   .work__grup{
     display: flex;
+    
   }
 
   .work__item{
-    width: 25%;
+    
     text-align: center;
     margin: 87px 0px;
     padding: 0 25px;

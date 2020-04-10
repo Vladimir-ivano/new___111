@@ -422,13 +422,11 @@ a {
 .section--work .work__inner {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 .section--work .work__inner .work__grup {
   display: flex;
 }
 .section--work .work__inner .work__item {
-  width: 25%;
   text-align: center;
   margin: 87px 0px;
   padding: 0 25px;
