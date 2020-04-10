@@ -502,13 +502,14 @@ padding-left: calc(50% + 78px);
   display: flex;
   flex-wrap: wrap;
 align-items: flex-start;
+
   .work__grup{
-  
+    display: flex;
   }
 
   .work__item{
+    width: 25%;
     text-align: center;
-width: 25%;
     margin: 87px 0px;
     padding: 0 25px;
   }

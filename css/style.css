@@ -424,9 +424,12 @@ a {
   flex-wrap: wrap;
   align-items: flex-start;
 }
+.section--work .work__inner .work__grup {
+  display: flex;
+}
 .section--work .work__inner .work__item {
-  text-align: center;
   width: 25%;
+  text-align: center;
   margin: 87px 0px;
   padding: 0 25px;
 }
