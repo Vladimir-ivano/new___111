@@ -386,130 +386,90 @@ padding-left: calc(50% + 78px);
     font-weight   : 700;
     line-height   : 1.4;
   }
-
   .prise--text{
     color: $color_2;
     font-size    : 16px;
     font-weight  : normal;
     margin-bottom: 85px;
-   
   }
   }
 
-  .prise__inner{
+ .prise__inner{
+   align-items: center;
+   display: flex;
+   height: 500px;
+   .prise__item{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccd5df;
+    color: #818b95;
+    flex-basis: calc(100%/3);
+    padding: 52.5px 30px;
+    transition: all 0.4s;
+    &:hover{
+      background-color: #709dca;
+      border-color: #709dca;
+      color: #fff;
+      padding: 82.5px 30px;
+      .suptitle__prise,
+      .prise__work,
+      .prise__work:before{
+        color: #fff;
+      }
+    }
+   }
+   .title__prise{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+   }
+   .suptitle__prise{
+    align-items: flex-start;
+    color: #ffbb42;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-
-    .prise__item{
-      padding: 0 ;
-      flex-basis: calc(100%/3);
-     text-align: center;
-    margin-bottom: 25px;
-
-
-
-  .prise__colmn{
-    width: 380px;
-    height: 440px;
-    display: block;
-   
-    background-color: $color_3;
-    border: 1px solid #CCD5DF;
-    color: $color_1;
-   
--webkit-transform: scale(1,1);
--webkit-transition-timing-function: ease-out;
--webkit-transition-duration: 550ms;
--moz-transform: scale(1,1);
--moz-transition-timing-function: ease-out;
--moz-transition-duration: 550ms;
-    &:hover{
-      background-color: $bc_1;
-      color: #fff;
-      -webkit-transform: scale(1,1.1);
-      -webkit-transition-timing-function: ease-out;
-      -webkit-transition-duration: 550ms;
-      -moz-transform: scale(1.2,1.2);
-      -moz-transition-timing-function: ease-out;
-      -moz-transition-duration: 400ms;
-    }
-  }
-
-  .title__prise{
-    margin-top: 54px;
-    text-transform: uppercase;
-    
-    font-size: 25px;
-    line-height: 22px;
-    font-weight: 400;
-    font-family: $ff1;
-  }
-
-  .suptitle__prise{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 22px;
-    color: $bc ;
     font-size: 60px;
-    
-    
-    span{
+    font-weight: bold;
+    justify-content: center;
+    transition: color 0.4s;
+    &:before {
+      content: '$';
       font-size: 40px;
-      padding-bottom: 20px;
+      font-weight: normal;
     }
-    
-  }
-
-  p{
-    text-transform: uppercase;
-    font-size: 20px;
-    opacity: .7;
-    margin-bottom: 30px;
-  }
-
-  .prise__work{
-    text-transform: uppercase;
-    font-size: 13px;
-opacity: .7;
-    margin-top: 16px;
-    &:before{
-      display: block;
-      content: "";
-      height: 1px;
-      width: 323px;
-      background-color: $color_1;
-     margin: 0 auto;
-     margin-bottom: 16px;
-&::hover::before{
-  background-color: $color_3;
-}
-
+    &:after {
+      color: #818b95;
+      content: 'per month';
+      flex-basis: 100%;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: uppercase;
+      transition: color 0.4s;
     }
-    &:last-child{
-      margin-bottom: 20px;
-    }
-  }
-
-  .btn--prise{
-    padding: 13px 20px;
-    text-transform: uppercase;
+   }
+   .prise__list{
+    margin: 20px 0;
+   }
+   .prise__work{
+    border-top: 1px solid #e2e9f0;
+    color: #b5bbc1;
     font-size: 14px;
-    background-color: $bc;
-    color: $color_3;
-    transition: background .2s linear;
-    
-    &:hover {
-      background-color: rgb(233, 166, 52);
-    }
-  }
-    }
-  }
+    padding: 10px 0;
+    text-transform: uppercase;
+   }
+   .btn--prise{
+    background-color: #ffbb42;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+   }
+ }
 
 }
-
-
 // work
 .section--work{
   background-color: #fff;
