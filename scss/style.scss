@@ -173,11 +173,10 @@ $bc_2:#E7EDF3 ;
         input {
           font-size     : 14px;
           width         : 284px;
-          padding-left  : 35px;
-          padding-top   : 16px;
           padding-bottom: 16px;
-          margin-right  : 10px;
-
+          padding-top: 16px;
+          padding-left: 35px;
+          padding-right: 10px;
           &:placeholder {
             color: #ccc;
           }
@@ -662,10 +661,12 @@ flex-basis: 560px;
   }
   .form__map{
     display: flex;
-    justify-content: space-around;
-    flex-wrap      : wrap;
-    margin         : 0 110px;
+      flex-wrap      : wrap;
+      justify-content: space-around;
+      margin         : 0 100px;
     margin-bottom: 20px;
-  }
 
+    
+  } 
 }
+
