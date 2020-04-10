@@ -422,10 +422,13 @@ a {
 .section--work .work__inner {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+}
+.section--work .work__inner .work__grup {
+  width: 50%;
 }
 .section--work .work__inner .work__item {
   text-align: center;
-  width: 25%;
   margin: 87px 0px;
   padding: 0 25px;
 }
@@ -529,4 +532,29 @@ a {
 }
 .section--clients .clients__inner .clients__item .clients__prof .clents__name span {
   color: #F6772C;
+}
+
+.section--map {
+  padding: 154px 0;
+  background-color: #fff;
+}
+.section--map .map {
+  width: 100%;
+  max-width: 746px;
+  text-align: center;
+  margin: 0 auto;
+}
+.section--map .map .title--map {
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #394B50;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.section--map .map .text--map {
+  color: #394B50;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 40px;
 }

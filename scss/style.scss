@@ -501,10 +501,14 @@ padding-left: calc(50% + 78px);
 .work__inner{
   display: flex;
   flex-wrap: wrap;
+align-items: flex-start;
+  .work__grup{
+    width: 50%;
+  }
 
   .work__item{
     text-align: center;
-    width: 25%;
+
     margin: 87px 0px;
     padding: 0 25px;
   }
@@ -590,7 +594,6 @@ flex-basis: 560px;
 
 .clients__prof{
   background-color: #fff;
-  
   padding-left: 161px;
   position: relative;
 
@@ -625,4 +628,34 @@ flex-basis: 560px;
   }
  }
 }
+}
+// map
+
+.section--map{
+  padding: 154px 0;
+  background-color: #fff;
+
+  .map{
+    width     : 100%;
+    max-width : 746px;
+    text-align: center;
+    margin    : 0 auto;
+
+    .title--map {
+      margin-top    : 20px;
+      font-size     : 35px;
+      text-transform: uppercase;
+      color         : $color_2;
+      font-weight   : 700;
+      line-height   : 1.4;
+      
+    }
+
+    .text--map{
+      color        : $color_2;
+      font-size    : 16px;
+      font-weight  : normal;
+      margin-bottom: 40px;
+    } 
+  }
 }
