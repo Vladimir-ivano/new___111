@@ -500,7 +500,7 @@ padding-left: calc(50% + 78px);
 
 .work__inner{
   display: flex;
-flex-wrap: wrap;
+  align-items: flex-start;
   .work__grup{
     display: flex;
     
