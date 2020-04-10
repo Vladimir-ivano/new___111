@@ -424,11 +424,9 @@ a {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.section--work .work__inner .work__grup {
-  width: 50%;
-}
 .section--work .work__inner .work__item {
   text-align: center;
+  width: 25%;
   margin: 87px 0px;
   padding: 0 25px;
 }
