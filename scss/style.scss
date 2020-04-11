@@ -633,8 +633,9 @@ padding-left: calc(50% + 78px);
 // map
 .section--map{
   padding: 154px 0 48px 0;
-  background:url(../img/map2.jpg) center center  no-repeat ;
-  
+  background:url(../img/map2.jpg)   no-repeat ;
+  background-position: top 400px right 400px;
+  height: 1000px;
   .map{
     width     : 100%;
     max-width : 746px;
