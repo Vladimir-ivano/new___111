@@ -631,10 +631,10 @@ padding-left: calc(50% + 78px);
 }
 
 // map
-
 .section--map{
-  padding: 154px 0;
-  background-color: #ccc;
+  padding: 154px 0 48px 0;
+  background:url(../img/map2.jpg) center center  no-repeat ;
+  
   .map{
     width     : 100%;
     max-width : 746px;
@@ -716,11 +716,9 @@ padding-left: calc(50% + 78px);
       }
     }
 }
-.map{
-  background:url(../img/map2.jpg)50% 100% no-repeat
-   ;
+
 }
-}
+
 
 
 
