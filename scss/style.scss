@@ -584,7 +584,7 @@ padding-left: calc(50% + 78px);
 .clients__inner{
   display: flex;
   flex-wrap: wrap;
-justify-content: flex-end;
+  justify-content: space-between;
   
 
 .clients__item{

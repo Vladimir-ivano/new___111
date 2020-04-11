@@ -493,7 +493,7 @@ a {
 .section--clients .clients__inner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .section--clients .clients__inner .clients__item {
   flex-basis: 560px;
