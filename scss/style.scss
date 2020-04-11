@@ -588,7 +588,7 @@ justify-content: flex-end;
   
 
 .clients__item{
-  webkit-flex-basis: 560px; 
+
 flex-basis: 560px;
   margin-bottom: 20px;
   margin-right: 10px;
@@ -635,13 +635,11 @@ flex-basis: 560px;
 .section--map{
   padding: 154px 0;
   background-color: #ccc;
-
   .map{
     width     : 100%;
     max-width : 746px;
     text-align: center;
     margin    : 0 auto;
-
     .title--map {
       margin-top    : 20px;
       font-size     : 35px;
@@ -649,9 +647,7 @@ flex-basis: 560px;
       color         : $color_2;
       font-weight   : 700;
       line-height   : 1.4;
-      
     }
-
     .text--map{
       color        : $color_2;
       font-size    : 16px;
@@ -660,13 +656,63 @@ flex-basis: 560px;
     } 
   }
   .form__map{
-    display: flex;
-      flex-wrap      : wrap;
-      justify-content: space-around;
-      margin         : 0 100px;
-    margin-bottom: 20px;
-
-    
-  } 
+  display: flex;
+  flex-wrap      : wrap;
+  justify-content: space-around;
+  margin:0 100px;
+  margin-bottom: 20px;
+    .form__col--first{
+      width: 34%;
+        .name__map{
+          border:1px solid #C7C7C7 ;
+        width: 307px;
+        font-size: 14px;
+        padding-bottom: 16px;
+          padding-top: 16px;
+          padding-left: 35px;
+          padding-right: 10px;
+          &:placeholder {
+            color: #ccc;
+          }
+      }
+    }
+    .form__col--second{
+      width: 43%;
+      
+      .email__map{
+        border:1px solid #C7C7C7 ;
+        width: 386px;
+      font-size: 14px;
+      padding-bottom: 16px;
+      padding-top: 16px;
+      padding-left: 35px;
+      padding-right: 10px;
+      &:placeholder {
+        color: #ccc;
+          }
+      }
+    }
+    .form__col--thihg{
+      width: 23%;
+      .btn--map{
+        text-transform  : uppercase;
+        padding         : 16px 48px 16px 48px;
+        font-size       : 14px;
+        background-color: $bc;
+        color           : $color_3;
+        font-weight     : normal;
+        transition      : backgraun .2s linear;
+        &:hover {
+          background-color: rgb(233, 166, 52);
+        }
+      }
+    }
 }
+.map{
+  background:url(../img/map2.jpg)50% 100% no-repeat
+   ;
+}
+}
+
+
 

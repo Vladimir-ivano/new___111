@@ -496,7 +496,6 @@ a {
   justify-content: flex-end;
 }
 .section--clients .clients__inner .clients__item {
-  webkit-flex-basis: 560px;
   flex-basis: 560px;
   margin-bottom: 20px;
   margin-right: 10px;
@@ -564,4 +563,52 @@ a {
   justify-content: space-around;
   margin: 0 100px;
   margin-bottom: 20px;
+}
+.section--map .form__map .form__col--first {
+  width: 34%;
+}
+.section--map .form__map .form__col--first .name__map {
+  border: 1px solid #C7C7C7;
+  width: 307px;
+  font-size: 14px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 35px;
+  padding-right: 10px;
+}
+.section--map .form__map .form__col--first .name__map:placeholder {
+  color: #ccc;
+}
+.section--map .form__map .form__col--second {
+  width: 43%;
+}
+.section--map .form__map .form__col--second .email__map {
+  border: 1px solid #C7C7C7;
+  width: 386px;
+  font-size: 14px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 35px;
+  padding-right: 10px;
+}
+.section--map .form__map .form__col--second .email__map:placeholder {
+  color: #ccc;
+}
+.section--map .form__map .form__col--thihg {
+  width: 23%;
+}
+.section--map .form__map .form__col--thihg .btn--map {
+  text-transform: uppercase;
+  padding: 16px 48px 16px 48px;
+  font-size: 14px;
+  background-color: #FFC155;
+  color: #ffffff;
+  font-weight: normal;
+  transition: backgraun .2s linear;
+}
+.section--map .form__map .form__col--thihg .btn--map:hover {
+  background-color: #e9a634;
+}
+.section--map .map {
+  background: url(../img/map2.jpg) 50% 100% no-repeat;
 }
