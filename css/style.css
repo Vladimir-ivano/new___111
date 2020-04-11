@@ -499,20 +499,18 @@ a {
   flex-basis: 560px;
   margin-bottom: 20px;
   margin-right: 10px;
-}
-.section--clients .clients__inner .clients__item .clients__prof {
   background-color: #fff;
   padding-left: 161px;
   position: relative;
 }
-.section--clients .clients__inner .clients__item .clients__prof .clients__photo {
+.section--clients .clients__inner .clients__item .clients__photo {
   border-radius: 50%;
   position: absolute;
   top: 42px;
   left: 20px;
   z-index: 1;
 }
-.section--clients .clients__inner .clients__item .clients__prof .clients__text {
+.section--clients .clients__inner .clients__item .clients__text {
   font-size: 13px;
   color: #7B7B7B;
   line-height: 22px;
@@ -521,7 +519,7 @@ a {
   padding-right: 10px;
   padding-top: 40px;
 }
-.section--clients .clients__inner .clients__item .clients__prof .clents__name {
+.section--clients .clients__inner .clients__item .clents__name {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: normal;
@@ -529,7 +527,7 @@ a {
   color: #D6DDDF;
   padding-bottom: 50px;
 }
-.section--clients .clients__inner .clients__item .clients__prof .clents__name span {
+.section--clients .clients__inner .clients__item .clents__name span {
   color: #F6772C;
 }
 
