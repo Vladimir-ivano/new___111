@@ -496,7 +496,7 @@ a {
   justify-content: space-between;
 }
 .section--clients .clients__inner .clients__item {
-  flex-basis: 560px;
+  flex-basis: calc(50% - 20px);
   margin-bottom: 20px;
   margin-right: 10px;
   background-color: #fff;
