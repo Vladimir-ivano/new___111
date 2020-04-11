@@ -534,7 +534,7 @@ a {
 .section--map {
   padding: 154px 0 48px 0;
   background: url(../img/map2.jpg) no-repeat;
-  background-position: top 400px right 400px;
+  background-position: top 400px right 330px;
   height: 1000px;
 }
 .section--map .map {
