@@ -638,5 +638,7 @@ a {
   color: #fff;
 }
 .section--map .adress__link .adress__logo {
+  display: block;
+  text-align: center;
   margin: 0 auto;
 }
