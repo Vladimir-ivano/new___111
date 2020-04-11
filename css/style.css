@@ -610,3 +610,33 @@ a {
 .section--map .form__map .form__col--thihg .btn--map:hover {
   background-color: #e9a634;
 }
+.section--map .adress {
+  text-align: center;
+  margin: 0 auto;
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-color: #394B50;
+  position: relative;
+  margin-bottom: 70px;
+}
+.section--map .adress__link {
+  font-size: 13px;
+  color: #AEB7BA;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+  top: 56px;
+  left: 0;
+  z-index: 1;
+}
+.section--map .adress__link span {
+  color: #FFBB42;
+}
+.section--map .adress__link h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.section--map .adress__link .adress__logo {
+  margin: 0 auto;
+}

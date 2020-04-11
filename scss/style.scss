@@ -711,8 +711,35 @@ padding-left: calc(50% + 78px);
     }
 
 }
-
+.adress{
+  text-align: center;
+  margin: 0 auto;
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  background-color: #394B50;
+position: relative;
+margin-bottom: 70px;
+  &__link{
+    font-size: 13px;
+    color: #AEB7BA;
+    line-height: 24px;
+    font-weight: 700;
+    position: relative;
+    top: 56px;
+    left: 0;
+    z-index: 1;
+    span{
+      color: #FFBB42;
+    }
+    h1{
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .adress__logo{
+      margin: 0 auto;
+    }
+  }
 }
-
-
+}
 
