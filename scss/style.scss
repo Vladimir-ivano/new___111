@@ -720,6 +720,8 @@ padding-left: calc(50% + 78px);
   background-color: #394B50;
 position: relative;
 margin-bottom: 70px;
+
+
   &__link{
     font-size: 13px;
     color: #AEB7BA;
@@ -738,9 +740,15 @@ margin-bottom: 70px;
     }
     .adress__logo{
       display: block;
- text-align: center;
- margin: 0 auto;     
- 
+
+.adress__logo:after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+
+  background:#E3E7EC ;
+}
     }
   }
 }

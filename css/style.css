@@ -639,6 +639,11 @@ a {
 }
 .section--map .adress__link .adress__logo {
   display: block;
-  text-align: center;
-  margin: 0 auto;
+}
+.section--map .adress__link .adress__logo .adress__logo:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #E3E7EC;
 }
