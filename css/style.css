@@ -534,7 +534,7 @@ a {
 .section--map {
   padding: 154px 0 48px 0;
   background: url(../img/map2.jpg) no-repeat;
-  background-position: top 400px right 330px;
+  background-position: top 400px center;
   height: 1000px;
 }
 .section--map .map {
@@ -562,7 +562,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 100px;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
 }
 .section--map .form__map .form__col--first {
   width: 34%;
@@ -594,13 +594,6 @@ a {
 }
 .section--map .form__map .form__col--second .email__map:placeholder {
   color: #ccc;
-}
-.section--map .form__map .form__col--second .email__map i {
-  padding: 15px 13px;
-  position: absolute;
-  left: 0;
-  top: 60px;
-  z-index: 1;
 }
 .section--map .form__map .form__col--thihg {
   width: 23%;
