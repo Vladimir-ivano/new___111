@@ -581,6 +581,7 @@ a {
 }
 .section--map .form__map .form__col--second {
   width: 43%;
+  position: relative;
 }
 .section--map .form__map .form__col--second .email__map {
   border: 1px solid #C7C7C7;
@@ -593,6 +594,13 @@ a {
 }
 .section--map .form__map .form__col--second .email__map:placeholder {
   color: #ccc;
+}
+.section--map .form__map .form__col--second .email__map i {
+  padding: 15px 13px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  z-index: 1;
 }
 .section--map .form__map .form__col--thihg {
   width: 23%;

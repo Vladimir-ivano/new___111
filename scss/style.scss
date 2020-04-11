@@ -678,8 +678,9 @@ flex-basis: 560px;
     }
     .form__col--second{
       width: 43%;
-      
+      position: relative;
       .email__map{
+        
         border:1px solid #C7C7C7 ;
         width: 386px;
       font-size: 14px;
@@ -689,6 +690,13 @@ flex-basis: 560px;
       padding-right: 10px;
       &:placeholder {
         color: #ccc;
+          }
+          i {
+            padding : 15px 13px;
+            position: absolute;
+            left    : 0;
+            top     : 60px;
+            z-index : 1;
           }
       }
     }
