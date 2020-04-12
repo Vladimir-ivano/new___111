@@ -562,7 +562,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 100px;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 .section--map .form__map .form__col--first {
   width: 34%;
@@ -636,15 +636,15 @@ a {
   position: relative;
   margin-bottom: 70px;
 }
-.adress .adress:before {
+.adress:before {
   content: "";
   border: solid transparent;
   position: absolute;
   top: 100%;
   left: 50%;
-  border-top-color: #000;
-  border-width: 9px;
-  margin-left: -9px;
+  border-top-color: #394B50;
+  border-width: 12px;
+  margin-left: -12px;
 }
 .adress__link {
   font-size: 13px;
@@ -665,4 +665,5 @@ a {
 }
 .adress__link .adress__logo {
   display: block;
+  text-align: center;
 }

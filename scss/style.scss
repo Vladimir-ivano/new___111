@@ -661,7 +661,7 @@ padding-left: calc(50% + 78px);
   flex-wrap      : wrap;
   justify-content: space-around;
   margin:0 100px;
-  margin-bottom: 90px;
+  margin-bottom:100px;
     .form__col--first{
       width: 34%;
       position: relative;
@@ -738,16 +738,18 @@ padding-left: calc(50% + 78px);
 position: relative;
 margin-bottom: 70px;
 
-.adress:before {
+&:before {
 	content: ""; 
-	border: solid transparent;
+	border: solid transparent ;
 	position: absolute;
  	top: 100%;
 	left: 50%;
-	border-top-color: #000;
-	border-width: 9px;
-	margin-left: -9px;
+	border-top-color: #394B50;
+	border-width: 12px;
+	margin-left: -12px;
 }
+
+
 
   &__link{
     font-size: 13px;
@@ -763,13 +765,20 @@ margin-bottom: 70px;
     }
     h1{
       text-transform: uppercase;
-      color: #fff;
-    }
-    .adress__logo{
-      display: block;
+      color: #fff
 
+
+     
     }
+.adress__logo{
+  display: block;
+  text-align: center;
+}
   }
 }
+    
+    
+  
+
 
 
