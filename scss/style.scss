@@ -664,6 +664,7 @@ padding-left: calc(50% + 78px);
   margin-bottom: 90px;
     .form__col--first{
       width: 34%;
+      position: relative;
         .name__map{
           border:1px solid #C7C7C7 ;
         width: 307px;
@@ -676,7 +677,7 @@ padding-left: calc(50% + 78px);
             color: #ccc;
           }
         }
-        
+
       i {
         padding : 15px 13px;
         position: absolute;

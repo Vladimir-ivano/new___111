@@ -566,6 +566,7 @@ a {
 }
 .section--map .form__map .form__col--first {
   width: 34%;
+  position: relative;
 }
 .section--map .form__map .form__col--first .name__map {
   border: 1px solid #C7C7C7;
