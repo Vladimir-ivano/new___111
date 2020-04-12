@@ -675,6 +675,14 @@ padding-left: calc(50% + 78px);
           &:placeholder {
             color: #ccc;
           }
+        }
+        
+      i {
+        padding : 15px 13px;
+        position: absolute;
+        left    : 0;
+        top     : 0;
+        z-index : 1;
       }
     }
     .form__col--second{
@@ -692,11 +700,12 @@ padding-left: calc(50% + 78px);
       &:placeholder {
         color: #ccc;
           }
+        }
           i {
             padding : 15px 13px;
             position: absolute;
-            left    : -20px;
-            top     : 20px;
+            left    : 0;
+            top     : 0;
             z-index : 1;
           }
       }
@@ -717,7 +726,7 @@ padding-left: calc(50% + 78px);
       }
     }
 
-}
+  }
 .adress{
   text-align: center;
   margin: 0 auto;
@@ -728,6 +737,16 @@ padding-left: calc(50% + 78px);
 position: relative;
 margin-bottom: 70px;
 
+.adress:before {
+	content: ""; 
+	border: solid transparent;
+	position: absolute;
+ 	top: 100%;
+	left: 50%;
+	border-top-color: #000;
+	border-width: 9px;
+	margin-left: -9px;
+}
 
   &__link{
     font-size: 13px;
@@ -751,5 +770,5 @@ margin-bottom: 70px;
     }
   }
 }
-}
+
 

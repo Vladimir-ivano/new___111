@@ -579,6 +579,13 @@ a {
 .section--map .form__map .form__col--first .name__map:placeholder {
   color: #ccc;
 }
+.section--map .form__map .form__col--first i {
+  padding: 15px 13px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
 .section--map .form__map .form__col--second {
   width: 43%;
   position: relative;
@@ -595,17 +602,17 @@ a {
 .section--map .form__map .form__col--second .email__map:placeholder {
   color: #ccc;
 }
-.section--map .form__map .form__col--second .email__map i {
+.section--map .form__map .form__col--second i {
   padding: 15px 13px;
   position: absolute;
-  left: -20px;
-  top: 20px;
+  left: 0;
+  top: 0;
   z-index: 1;
 }
-.section--map .form__map .form__col--thihg {
+.section--map .form__col--thihg {
   width: 23%;
 }
-.section--map .form__map .form__col--thihg .btn--map {
+.section--map .form__col--thihg .btn--map {
   text-transform: uppercase;
   padding: 16px 48px 16px 48px;
   font-size: 14px;
@@ -614,10 +621,11 @@ a {
   font-weight: normal;
   transition: backgraun .2s linear;
 }
-.section--map .form__map .form__col--thihg .btn--map:hover {
+.section--map .form__col--thihg .btn--map:hover {
   background-color: #e9a634;
 }
-.section--map .adress {
+
+.adress {
   text-align: center;
   margin: 0 auto;
   width: 257px;
@@ -627,7 +635,17 @@ a {
   position: relative;
   margin-bottom: 70px;
 }
-.section--map .adress__link {
+.adress .adress:before {
+  content: "";
+  border: solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-top-color: #000;
+  border-width: 9px;
+  margin-left: -9px;
+}
+.adress__link {
   font-size: 13px;
   color: #AEB7BA;
   line-height: 24px;
@@ -637,13 +655,13 @@ a {
   left: 0;
   z-index: 1;
 }
-.section--map .adress__link span {
+.adress__link span {
   color: #FFBB42;
 }
-.section--map .adress__link h1 {
+.adress__link h1 {
   text-transform: uppercase;
   color: #fff;
 }
-.section--map .adress__link .adress__logo {
+.adress__link .adress__logo {
   display: block;
 }
