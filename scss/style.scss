@@ -736,7 +736,7 @@ padding-left: calc(50% + 78px);
   border-radius: 50%;
   background-color: #394B50;
 position: relative;
-margin-bottom: 70px;
+margin-bottom: 20px;
 
 &:before {
 	content: ""; 
@@ -760,6 +760,7 @@ margin-bottom: 70px;
     top: 56px;
     left: 0;
     z-index: 1;
+
     span{
       color: #FFBB42;
     }
@@ -767,18 +768,16 @@ margin-bottom: 70px;
       text-transform: uppercase;
       color: #fff
 
-
-     
     }
-.adress__logo{
-  display: block;
-  text-align: center;
-}
   }
 }
-    
-    
+.adress__logo{
+  display: block;
+  margin: 0 auto;
+}
+
   
+
 
 
 

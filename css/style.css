@@ -634,7 +634,7 @@ a {
   border-radius: 50%;
   background-color: #394B50;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 .adress:before {
   content: "";
@@ -663,7 +663,8 @@ a {
   text-transform: uppercase;
   color: #fff;
 }
-.adress__link .adress__logo {
+
+.adress__logo {
   display: block;
-  text-align: center;
+  margin: 0 auto;
 }
