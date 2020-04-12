@@ -692,6 +692,13 @@ padding-left: calc(50% + 78px);
       &:placeholder {
         color: #ccc;
           }
+          i {
+            padding : 15px 13px;
+            position: absolute;
+            left    : -20px;
+            top     : 20px;
+            z-index : 1;
+          }
       }
     }
     .form__col--thihg{
@@ -741,14 +748,6 @@ margin-bottom: 70px;
     .adress__logo{
       display: block;
 
-.adress__logo:after{
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-
-  background:#E3E7EC ;
-}
     }
   }
 }

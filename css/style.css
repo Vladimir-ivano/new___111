@@ -595,6 +595,13 @@ a {
 .section--map .form__map .form__col--second .email__map:placeholder {
   color: #ccc;
 }
+.section--map .form__map .form__col--second .email__map i {
+  padding: 15px 13px;
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  z-index: 1;
+}
 .section--map .form__map .form__col--thihg {
   width: 23%;
 }
@@ -639,11 +646,4 @@ a {
 }
 .section--map .adress__link .adress__logo {
   display: block;
-}
-.section--map .adress__link .adress__logo .adress__logo:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background: #E3E7EC;
 }
