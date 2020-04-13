@@ -93,10 +93,7 @@ $bc_2:#E7EDF3 ;
   padding-top: 20px;
   height     : 94px;
 
-  top        : 0;
-  left       : 0;
-  z-index    : 1;
-
+  
   .header__inner {
     display        : flex;
     justify-content: space-between;
@@ -731,8 +728,8 @@ padding-left: calc(50% + 78px);
 .adress{
   text-align: center;
   margin: 0 auto;
-  width: 257px;
-  height: 257px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
   background-color: #394B50;
 position: relative;
@@ -776,8 +773,72 @@ margin-bottom: 20px;
   margin: 0 auto;
 }
 
+  // foorter
   
+.footer{
+  
+  &__inner{
+    border-top: 2px solid #E3E7EC;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    .footer__link{
+      margin-top: 60px;
+  text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: $ff1;
+  color: $color_2;
+  margin-right: 33px;
+  &__link:last-child{
+    margin-right: 0;
+  }
+} 
+  }
+  .number{
+    text-align: center;
+    margin-bottom: 22px;
+    color: $color_2;
+    position: relative;
+    .tell{
+      font-weight: 700;
+      font-size: 23px;
+    }
 
+    i{
+      font-size: 19px;
+      position: absolute;
+      top: 4px ;
+      left: 467px;
+      z-index: 1;
+    }
+  }
+  .social__inner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 51px;
+    
+    .social__icon{
+      display: block;
+      fill:#709DCA ;
+      margin-right: 20px;
+      height: 20px;
+      transition: backgraun .2s linear;
+    }
+    .social__icon:hover{
+      fill: $bc;
+    }
+  }
+  .fotter__text{
+    padding: 15px 0;
+    text-align: center;
+    background-color: #709DCA;
+    color: #fff;
+    font-size: 13px;
+    font-family: $ff;
+  }
+}
 
 
 

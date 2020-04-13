@@ -72,9 +72,6 @@ a {
   width: 100%;
   padding-top: 20px;
   height: 94px;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 .header .header__inner {
   display: flex;
@@ -629,8 +626,8 @@ a {
 .adress {
   text-align: center;
   margin: 0 auto;
-  width: 257px;
-  height: 257px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
   background-color: #394B50;
   position: relative;
@@ -667,4 +664,64 @@ a {
 .adress__logo {
   display: block;
   margin: 0 auto;
+}
+
+.footer__inner {
+  border-top: 2px solid #E3E7EC;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.footer__inner .footer__link {
+  margin-top: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "lato", sans-serif;
+  color: #394B50;
+  margin-right: 33px;
+}
+.footer__inner .footer__link__link:last-child {
+  margin-right: 0;
+}
+.footer .number {
+  text-align: center;
+  margin-bottom: 22px;
+  color: #394B50;
+  position: relative;
+}
+.footer .number .tell {
+  font-weight: 700;
+  font-size: 23px;
+}
+.footer .number i {
+  font-size: 19px;
+  position: absolute;
+  top: 4px;
+  left: 467px;
+  z-index: 1;
+}
+.footer .social__inner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 51px;
+}
+.footer .social__inner .social__icon {
+  display: block;
+  fill: #709DCA;
+  margin-right: 20px;
+  height: 20px;
+  transition: backgraun .2s linear;
+}
+.footer .social__inner .social__icon:hover {
+  fill: #FFC155;
+}
+.footer .fotter__text {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #709DCA;
+  color: #fff;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
 }
