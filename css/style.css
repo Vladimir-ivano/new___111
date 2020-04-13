@@ -631,7 +631,6 @@ a {
   border-radius: 50%;
   background-color: #394B50;
   position: relative;
-  margin-bottom: 20px;
 }
 .adress:before {
   content: "";
@@ -712,6 +711,7 @@ a {
   fill: #709DCA;
   margin-right: 20px;
   height: 20px;
+  width: 20px;
   transition: backgraun .2s linear;
 }
 .footer .social__inner .social__icon:hover {

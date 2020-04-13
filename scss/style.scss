@@ -733,7 +733,8 @@ padding-left: calc(50% + 78px);
   border-radius: 50%;
   background-color: #394B50;
 position: relative;
-margin-bottom: 20px;
+
+
 
 &:before {
 	content: ""; 
@@ -824,6 +825,7 @@ margin-bottom: 20px;
       fill:#709DCA ;
       margin-right: 20px;
       height: 20px;
+      width: 20px;
       transition: backgraun .2s linear;
     }
     .social__icon:hover{
