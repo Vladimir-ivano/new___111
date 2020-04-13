@@ -218,17 +218,17 @@ $bc_2:#E7EDF3 ;
 
 
       .photo__slider {
-  
-        display : block;
-  
-        z-index : 1;
-      }
+     display: block;
+     
+     z-index: 1;
+     
     }
+  
 
     .slider_footer {
       position: relative;
 
-
+    }
       .slider {
         text-align   : center;
         font-size    : 5;
@@ -733,14 +733,13 @@ padding-left: calc(50% + 78px);
   border-radius: 50%;
   background-color: #394B50;
 position: relative;
-
-
+margin-bottom: 20px;
 
 &:before {
 	content: ""; 
 	border: solid transparent ;
 	position: absolute;
- 	top: 100%;
+ 	top: 99%;
 	left: 50%;
 	border-top-color: #394B50;
 	border-width: 12px;
@@ -841,6 +840,4 @@ position: relative;
     font-family: $ff;
   }
 }
-
-
-
+  

@@ -174,10 +174,10 @@ a {
   display: block;
   z-index: 1;
 }
-.section .slider_footer {
+.section .slider__header .slider_footer {
   position: relative;
 }
-.section .slider_footer .slider {
+.section .slider__header .slider {
   text-align: center;
   font-size: 5;
   width: 20px;
@@ -188,7 +188,7 @@ a {
   background: #fff;
   transition: background-color .2s linear;
 }
-.section .slider_footer .slider:hover {
+.section .slider__header .slider:hover {
   border: 1px solid #3FB5E2;
 }
 
@@ -631,12 +631,13 @@ a {
   border-radius: 50%;
   background-color: #394B50;
   position: relative;
+  margin-bottom: 20px;
 }
 .adress:before {
   content: "";
   border: solid transparent;
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 50%;
   border-top-color: #394B50;
   border-width: 12px;
