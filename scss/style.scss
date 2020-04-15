@@ -182,7 +182,16 @@ background-color: $color_2;
         color         : $color_3;
         font-weight   : 700;
         line-height   : 1.4;
+
+        @media (max-width: 1200px){
+          font-size: 30px;
       }
+      @media (max-width: 995px){
+        font-size: 25px;
+      }
+
+      }
+      
 
       .section__text {
         color        : $color_3;
@@ -298,6 +307,12 @@ background-color: $color_2;
   background-color: #fff;;
     padding: 190px 0 140px 0;
 
+    @media (max-width: 995px){
+      padding: 100px 0 100px 0;
+    }
+    @media (max-width: 775px){
+      padding: 120px 0 100px 0;}
+
     .features{
       width     : 100%;
       max-width : 746px;
@@ -333,6 +348,11 @@ background-color: $color_2;
     position: relative;
     padding-right: 35px;
     margin: 25px 0;
+
+    @media (max-width: 770px){
+      width: 100%;
+    padding-left: 70px;
+    }
   }
 
   .features__icon{
@@ -340,6 +360,9 @@ background-color: $color_2;
     left: 0;
     top: 0;
     z-index: 1;
+    @media (max-width: 770px){
+      left: 0;
+    }
   }
 
   .features__title{
