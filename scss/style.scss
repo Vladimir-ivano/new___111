@@ -834,8 +834,10 @@ margin-bottom: 20px;
     font-family: $ff1;
   color: $color_2;
   margin-right: 33px;
+ 
   &__link:last-child{
     margin-right: 0;
+
   }
 } 
   }
@@ -844,16 +846,18 @@ margin-bottom: 20px;
     margin-bottom: 22px;
     color: $color_2;
     position: relative;
+   
     .tell{
       font-weight: 700;
       font-size: 23px;
+      
     }
 
     i{
       font-size: 19px;
       position: absolute;
-      top: 4px ;
-      left: 467px;
+     bottom: 4px ;
+      left: 483px;
       z-index: 1;
     }
   }
@@ -902,7 +906,7 @@ margin-bottom: 20px;
   .form__item{
 
     input{
-      
+      max-width: 100%;
     }
   }
 }

@@ -736,8 +736,8 @@ a {
 .footer .number i {
   font-size: 19px;
   position: absolute;
-  top: 4px;
-  left: 467px;
+  bottom: 4px;
+  left: 483px;
   z-index: 1;
 }
 .footer .social__inner {
@@ -768,6 +768,9 @@ a {
 @media (max-width: 1200px) {
   .section .section__title {
     font-size: 25px;
+  }
+  .section .form__header .form__item input {
+    max-width: 100%;
   }
 }
 @media (max-width: 997px) {
