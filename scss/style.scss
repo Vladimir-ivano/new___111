@@ -397,6 +397,7 @@ background-color: $color_2;
 align-items: center;
     .about__content{
 padding-left: calc(50% + 78px);
+
       .about__title{
         font-size: 30px;
         font-family: $ff2;
@@ -906,6 +907,7 @@ margin-bottom: 20px;
     border-top: 2px solid #E3E7EC;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 25px;
     .footer__link{
       margin-top: 60px;
@@ -916,7 +918,9 @@ margin-bottom: 20px;
     font-family: $ff1;
   color: $color_2;
   margin-right: 33px;
- 
+  @media (max-width: 775px){
+    margin-top: 30px;
+  }
   &__link:last-child{
     margin-right: 0;
 
