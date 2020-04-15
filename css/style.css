@@ -769,13 +769,6 @@ a {
   .section .section__title {
     font-size: 25px;
   }
-  .section .form__header {
-    justify-content: space-between;
-    margin: 20px 0;
-  }
-  .section .form__header .form__item input {
-    width: 260px;
-  }
 }
 @media (max-width: 997px) {
   .header .header__inner nav {
