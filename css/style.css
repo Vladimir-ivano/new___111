@@ -537,7 +537,7 @@ a {
 }
 @media (max-width: 775px) {
   .section--work .work__inner .work__item {
-    padding: 0 150px;
+    padding: 0 100px;
   }
 }
 .section--work .work__inner .icon__work {
