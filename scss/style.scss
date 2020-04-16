@@ -276,12 +276,13 @@ width: 50%;
 
     $laptop_size_tab: 16px;
     $laptop_offset_tap: 20px;
+    $laptop_offset_img:4px;
     .laptop {
      height: 344px + $laptop_offset_tap + $laptop_size_tab;
      overflow: hidden;
      position: relative;
      margin-top: 40px;
-     margin-bottom: -170px;
+     margin-bottom: -180px;
      &:before {
       background: url('https://vladimir-ivano.github.io/new___111/img/slider2.png') center no-repeat;
       background-size: contain;
@@ -296,8 +297,8 @@ width: 50%;
      }
      &__images {
       background-color: #000;
-      height: calc(100% - #{$laptop_offset_tap + $laptop_size_tab});
-      margin: 0 auto;
+      height: calc(100% - #{$laptop_offset_tap + $laptop_size_tab + $laptop_offset_img});
+      margin: #{$laptop_offset_img}  auto 0;
       max-width: 450px;
       overflow: hidden;
       position: relative;
