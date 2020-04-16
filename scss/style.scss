@@ -220,7 +220,9 @@ background-color: $color_2;
         
         width   : 25%;
         position: relative;
-
+        @media (max-width: 995px){
+width: 50%;
+        }
 
 
         input {
@@ -233,14 +235,7 @@ background-color: $color_2;
           &:placeholder {
             color: #ccc;
           }
-          @media (max-width: 1200px){
-            max-width: 100%;
-          }
-          @media (max-width: 775px){
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-          }
+      
         }
 
 
@@ -812,11 +807,19 @@ padding-left: calc(50% + 78px);
   justify-content: space-around;
   margin:0 100px;
   margin-bottom:100px;
+  @media (max-width: 1200px){
+    margin:0 80px;
+    margin-bottom:100px;
+  }
+
     .form__col--first{
       width: 34%;
       position: relative;
       @media (max-width: 1200px){
-        
+        max-width: 50%; 
+      }
+      @media (max-width: 995px){
+        width: 100%; 
       }
         .name__map{
           border:1px solid #C7C7C7 ;
@@ -828,6 +831,9 @@ padding-left: calc(50% + 78px);
           padding-right: 10px;
           &:placeholder {
             color: #ccc;
+          }
+          @media (max-width: 1200px){
+         width: 370px;
           }
         }
 
@@ -843,9 +849,11 @@ padding-left: calc(50% + 78px);
       width: 43%;
       position: relative;
       @media (max-width: 1200px){
-        
+       max-width: 50%;
       }
-
+      @media (max-width: 995px){
+        width: 100%; 
+      }
       .email__map{
         
         border:1px solid #C7C7C7 ;
@@ -871,7 +879,9 @@ padding-left: calc(50% + 78px);
     .form__col--thihg{
       width: 23%;
       @media (max-width: 1200px){
-      
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
       }
 
       .btn--map{

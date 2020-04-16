@@ -184,6 +184,11 @@ a {
   width: 25%;
   position: relative;
 }
+@media (max-width: 995px) {
+  .section .form__header .form__item {
+    width: 50%;
+  }
+}
 .section .form__header .form__item input {
   font-size: 14px;
   width: 284px;
@@ -194,18 +199,6 @@ a {
 }
 .section .form__header .form__item input:placeholder {
   color: #ccc;
-}
-@media (max-width: 1200px) {
-  .section .form__header .form__item input {
-    max-width: 100%;
-  }
-}
-@media (max-width: 775px) {
-  .section .form__header .form__item input {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
 }
 .section .form__header .form__item i {
   padding: 15px 13px;
@@ -742,9 +735,25 @@ a {
   margin: 0 100px;
   margin-bottom: 100px;
 }
+@media (max-width: 1200px) {
+  .section--map .form__map {
+    margin: 0 80px;
+    margin-bottom: 100px;
+  }
+}
 .section--map .form__map .form__col--first {
   width: 34%;
   position: relative;
+}
+@media (max-width: 1200px) {
+  .section--map .form__map .form__col--first {
+    max-width: 50%;
+  }
+}
+@media (max-width: 995px) {
+  .section--map .form__map .form__col--first {
+    width: 100%;
+  }
 }
 .section--map .form__map .form__col--first .name__map {
   border: 1px solid #C7C7C7;
@@ -758,6 +767,11 @@ a {
 .section--map .form__map .form__col--first .name__map:placeholder {
   color: #ccc;
 }
+@media (max-width: 1200px) {
+  .section--map .form__map .form__col--first .name__map {
+    width: 370px;
+  }
+}
 .section--map .form__map .form__col--first i {
   padding: 15px 13px;
   position: absolute;
@@ -768,6 +782,16 @@ a {
 .section--map .form__map .form__col--second {
   width: 43%;
   position: relative;
+}
+@media (max-width: 1200px) {
+  .section--map .form__map .form__col--second {
+    max-width: 50%;
+  }
+}
+@media (max-width: 995px) {
+  .section--map .form__map .form__col--second {
+    width: 100%;
+  }
 }
 .section--map .form__map .form__col--second .email__map {
   border: 1px solid #C7C7C7;
@@ -790,6 +814,13 @@ a {
 }
 .section--map .form__col--thihg {
   width: 23%;
+}
+@media (max-width: 1200px) {
+  .section--map .form__col--thihg {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
 }
 .section--map .form__col--thihg .btn--map {
   text-transform: uppercase;
