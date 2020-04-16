@@ -172,8 +172,9 @@ background-color: $color_2;
   // intro
 
   .section {
-    padding         : 80px 0 40px 0;
+    padding         : 80px 0 ;
     background-color: $bc_1;
+    padding-bottom: 0;
   
     
     .section__header {
