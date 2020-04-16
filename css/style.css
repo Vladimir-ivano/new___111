@@ -82,6 +82,11 @@ a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 997px) {
+  .header .header__inner nav {
+    display: none;
+  }
+}
 .header .header__inner nav .nav__link {
   font-size: 13.5px;
   text-transform: uppercase;
@@ -103,6 +108,11 @@ a {
   background: none;
   cursor: pointer;
   padding: 15px 3px;
+}
+@media (max-width: 997px) {
+  .header .header__inner .burger {
+    display: block;
+  }
 }
 .header .header__inner .burger .burger__item {
   position: relative;
@@ -185,12 +195,29 @@ a {
 .section .form__header .form__item input:placeholder {
   color: #ccc;
 }
+@media (max-width: 1200px) {
+  .section .form__header .form__item input {
+    max-width: 100%;
+  }
+}
+@media (max-width: 775px) {
+  .section .form__header .form__item input {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
 .section .form__header .form__item i {
   padding: 15px 13px;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
+}
+@media (max-width: 775px) {
+  .section .form__header .form__item i {
+    padding: 10px 13px;
+  }
 }
 .section .form__header .btn {
   text-transform: uppercase;
@@ -885,21 +912,4 @@ a {
   color: #fff;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
-}
-
-@media (max-width: 1200px) {
-  .section .section__title {
-    font-size: 25px;
-  }
-  .section .form__header .form__item input {
-    max-width: 100%;
-  }
-}
-@media (max-width: 997px) {
-  .header .header__inner nav {
-    display: none;
-  }
-  .header .header__inner .burger {
-    display: block;
-  }
 }

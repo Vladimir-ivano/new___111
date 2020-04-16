@@ -104,6 +104,9 @@ $bc_2:#E7EDF3 ;
     nav {
       display        : flex;
       justify-content: space-between;
+      @media (max-width: 997px){
+        display: none;
+      }
 
       .nav__link {
         font-size     : 13.5px;
@@ -130,6 +133,10 @@ $bc_2:#E7EDF3 ;
         background: none;
         cursor: pointer;
         padding: 15px 3px;
+        @media (max-width: 997px){
+    display: block;
+
+        }
   .burger__item{
     position: relative;
     display: block;
@@ -226,6 +233,14 @@ background-color: $color_2;
           &:placeholder {
             color: #ccc;
           }
+          @media (max-width: 1200px){
+            max-width: 100%;
+          }
+          @media (max-width: 775px){
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+          }
         }
 
 
@@ -235,6 +250,9 @@ background-color: $color_2;
           left    : 0;
           top     : 0;
           z-index : 1;
+          @media (max-width: 775px){
+            padding : 10px 13px;
+          }
         }
 
 
@@ -998,41 +1016,8 @@ margin-bottom: 20px;
   // media
 
 
-  @media (max-width: 1200px){
-
-// section
-
-.section{
-.section__title{
-  font-size: 25px;
-}
-
-.form__header{
  
-  .form__item{
 
-    input{
-      max-width: 100%;
-    }
-  }
-}
-  }
-}
 
-@media (max-width: 997px){
 
-  // header
-  .header{
 
-.header__inner{
-
-  nav{
-    display: none;
-  }
-  // burger
-  .burger{
-    display: block;
-  }
-}
-  }
-}
