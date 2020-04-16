@@ -273,64 +273,65 @@ width: 50%;
     }
 
 
-    $laptop_height: 340px;
     $laptop_size_tab: 16px;
+    $laptop_offset_tap: 20px;
     .laptop {
-     height: $laptop_height;
-     margin-top: 50px;
-     
-     
+     height: 344px + $laptop_offset_tap + $laptop_size_tab;
+     overflow: hidden;
+     position: relative;
      &:before {
       background: url('https://vladimir-ivano.github.io/new___111/img/slider2.png') center no-repeat;
+      background-size: contain;
       content: '';
       display: block;
-      height: 100%;
-      position: relative;
+      left: 0;
+      position: absolute;
+      top: 0;
+      height: calc(100% - #{$laptop_offset_tap + $laptop_size_tab});
       width: 100%;
       z-index: 10;
      }
      &__images {
       background-color: #000;
-      height: 90%;
-      margin: -$laptop_height auto 0;
-      max-width: 460px;
-      position: relative;
+      height: calc(100% - #{$laptop_offset_tap + $laptop_size_tab});
+      margin: 0 auto;
+      max-width: 450px;
       overflow: hidden;
+      position: relative;
      }
      &__img {
-      height: 100%;
       left: 50%;
+      height: 100%;
       opacity: 0;
       position: absolute;
-      top: 20;
+      top: 0;
+      transition: opacity 0.4s;
       transform: translateX(-50%);
-      transition: opacity 0.4s ease;
-      width: auto;
-      z-index: 1;
+      widows: auto;
       &.is-active {
        opacity: 1;
-       z-index: 2;
       }
      }
      &__tabs {
       display: flex;
       justify-content: center;
-      margin-top: 20px;
+      margin: $laptop_offset_tap 0 0;
+      padding: 0;
      }
      &__tab {
       border: 2px solid #dedfe0;
       border-radius: 50%;
+      height: $laptop_size_tab;
       cursor: pointer;
       display: block;
-      height: $laptop_size_tab;
-      margin: 0 $laptop_size_tab/3;
+      margin: 0 $laptop_size_tab/4;
+      transition: border-color 0.4s;
       width: $laptop_size_tab;
       &.is-active {
        border-color: #21aade;
       }
      }
     }
-  
 
   }
 
