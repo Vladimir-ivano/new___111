@@ -934,9 +934,8 @@ a {
   text-align: center;
   margin-bottom: 22px;
   color: #394B50;
-  position: relative;
 }
-.footer .number .tell {
+.footer .number span {
   font-weight: 700;
   font-size: 23px;
 }
