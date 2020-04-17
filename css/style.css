@@ -184,11 +184,6 @@ a {
   width: 25%;
   position: relative;
 }
-@media (max-width: 995px) {
-  .section .form__header .form__item {
-    width: 50%;
-  }
-}
 .section .form__header .form__item input {
   font-size: 14px;
   width: 284px;
@@ -558,7 +553,7 @@ a {
   display: flex;
   background: url(../img/1.png) center 15% no-repeat;
 }
-@media (max-width: 995px) {
+@media (max-width: 775px) {
   .section--work .work__inner .work__grup {
     background: none;
   }
@@ -581,7 +576,7 @@ a {
 }
 @media (max-width: 775px) {
   .section--work .work__inner .work__item {
-    padding: 0 100px;
+    padding: 0 80px;
   }
 }
 .section--work .work__inner .icon__work {

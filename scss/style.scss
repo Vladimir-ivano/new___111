@@ -222,7 +222,6 @@ background-color: $color_2;
         width   : 25%;
         position: relative;
         @media (max-width: 995px){
-width: 50%;
         }
 
 
@@ -624,7 +623,7 @@ padding-left: calc(50% + 78px);
     display: flex;
     background: url(../img/1.png) center 15% no-repeat;
     
-    @media (max-width: 995px){
+    @media (max-width: 775px){
       background: none;
     }
     @media (max-width: 775px){
@@ -644,7 +643,7 @@ padding-left: calc(50% + 78px);
     }
 
     @media (max-width: 775px){
-      padding: 0 100px;
+      padding: 0 80px;
     }
   }
 
