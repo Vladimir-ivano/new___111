@@ -751,7 +751,8 @@ padding-left: calc(50% + 78px);
   @media (max-width: 640px){
     position: relative;
   margin: 10px auto;
-   
+  top: 10px;
+  left: 170px;
   }
 
 }
@@ -766,6 +767,7 @@ padding-left: calc(50% + 78px);
   @media (max-width: 640px){
     text-align: left;
     margin-bottom: 15px;
+    padding-top: 15px;
   }
 
 }

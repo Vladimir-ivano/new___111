@@ -681,6 +681,8 @@ a {
   .section--clients .clients__inner .clients__item .clients__photo {
     position: relative;
     margin: 10px auto;
+    top: 10px;
+    left: 170px;
   }
 }
 .section--clients .clients__inner .clients__item .clients__text {
@@ -696,6 +698,7 @@ a {
   .section--clients .clients__inner .clients__item .clients__text {
     text-align: left;
     margin-bottom: 15px;
+    padding-top: 15px;
   }
 }
 .section--clients .clients__inner .clients__item .clents__name {
