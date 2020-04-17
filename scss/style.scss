@@ -738,7 +738,9 @@ padding-left: calc(50% + 78px);
   @media (max-width: 995px){
     flex-basis:calc(100% - 10px) 
   }
-
+  @media (max-width: 640px){
+    padding-left: 10px;
+  }
 
 .clients__photo{
   border-radius: 50%;
@@ -746,6 +748,11 @@ padding-left: calc(50% + 78px);
   top: 42px;
   left: 20px;
   z-index: 1;
+  @media (max-width: 640px){
+    position: relative;
+  margin: 10px auto;
+   
+  }
 
 }
 .clients__text{
@@ -756,6 +763,11 @@ padding-left: calc(50% + 78px);
   margin-bottom: 25px;
   padding-right: 10px;
   padding-top: 40px;
+  @media (max-width: 640px){
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
 }
 .clents__name{
   text-transform: uppercase;
@@ -767,8 +779,13 @@ padding-left: calc(50% + 78px);
   span{
     color: #F6772C;
   }
-    }
+  @media (max-width: 640px){
+    padding-bottom: 20px;
   }
+    }
+    
+  }
+  
  }
 }
 
