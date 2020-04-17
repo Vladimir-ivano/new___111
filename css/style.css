@@ -940,13 +940,6 @@ a {
   font-weight: 700;
   font-size: 23px;
 }
-.footer .number i {
-  font-size: 19px;
-  position: absolute;
-  bottom: 4px;
-  left: 483px;
-  z-index: 1;
-}
 .footer .social__inner {
   display: flex;
   justify-content: center;
