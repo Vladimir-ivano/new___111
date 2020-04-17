@@ -997,14 +997,14 @@ margin-bottom: 20px;
     margin-right: 0;
 
   }
-} 
-.number{
-  text-decoration: none;
- margin: 0 auto;
- color: $color_2;
-  }
   
+} 
   }
+  .number{
+    text-decoration: none;
+   margin: 0 auto;
+   color: $color_2;
+    }
   }
   .social__inner{
     display: flex;
@@ -1031,8 +1031,7 @@ margin-bottom: 20px;
     font-size: 13px;
     font-family: $ff;
   }
-
-
+}
 
   // media
 
