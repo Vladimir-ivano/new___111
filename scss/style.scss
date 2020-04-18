@@ -311,6 +311,10 @@ background-color: $color_2;
       overflow: hidden;
       position: relative;
      }
+     @media (max-width: 771px){
+      max-width: 450px;
+     }
+
      &__img {
       left: 50%;
       height: 100%;
@@ -324,6 +328,8 @@ background-color: $color_2;
        opacity: 1;
       }
      }
+    
+
      &__tabs {
       display: flex;
       justify-content: center;

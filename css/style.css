@@ -256,6 +256,11 @@ a {
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 771px) {
+  .section .laptop {
+    max-width: 450px;
+  }
+}
 .section .laptop__img {
   left: 50%;
   height: 100%;
