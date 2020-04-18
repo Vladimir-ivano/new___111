@@ -256,11 +256,6 @@ a {
   overflow: hidden;
   position: relative;
 }
-@media (max-width: 771px) {
-  .section .laptop {
-    max-width: 450px;
-  }
-}
 .section .laptop__img {
   left: 50%;
   height: 100%;
@@ -375,6 +370,8 @@ a {
 }
 
 .about {
+  display: block;
+  max-width: 100%;
   background: #FFC155 url(../img/work.jpg) center left no-repeat;
   background-size: 50% 100%;
   height: 625px;
@@ -787,16 +784,6 @@ a {
   width: 34%;
   position: relative;
 }
-@media (max-width: 1200px) {
-  .section--map .form__map .form__col--first {
-    max-width: 50%;
-  }
-}
-@media (max-width: 995px) {
-  .section--map .form__map .form__col--first {
-    width: 100%;
-  }
-}
 .section--map .form__map .form__col--first .name__map {
   border: 1px solid #C7C7C7;
   width: 307px;
@@ -809,11 +796,6 @@ a {
 .section--map .form__map .form__col--first .name__map:placeholder {
   color: #ccc;
 }
-@media (max-width: 1200px) {
-  .section--map .form__map .form__col--first .name__map {
-    width: 370px;
-  }
-}
 .section--map .form__map .form__col--first i {
   padding: 15px 13px;
   position: absolute;
@@ -824,16 +806,6 @@ a {
 .section--map .form__map .form__col--second {
   width: 43%;
   position: relative;
-}
-@media (max-width: 1200px) {
-  .section--map .form__map .form__col--second {
-    max-width: 50%;
-  }
-}
-@media (max-width: 995px) {
-  .section--map .form__map .form__col--second {
-    width: 100%;
-  }
 }
 .section--map .form__map .form__col--second .email__map {
   border: 1px solid #C7C7C7;

@@ -311,10 +311,6 @@ background-color: $color_2;
       overflow: hidden;
       position: relative;
      }
-     @media (max-width: 771px){
-      max-width: 450px;
-     }
-
      &__img {
       left: 50%;
       height: 100%;
@@ -328,7 +324,9 @@ background-color: $color_2;
        opacity: 1;
       }
      }
-    
+     @media (max-width: 771px){
+     
+     }
 
      &__tabs {
       display: flex;
@@ -437,6 +435,8 @@ background-color: $color_2;
 
 // about
 .about{
+  display: block;
+  max-width: 100%;
   background:$bc url(../img/work.jpg)
   center left no-repeat;
   background-size: 50% 100%;
@@ -449,6 +449,8 @@ background-color: $color_2;
 align-items: center;
     .about__content{
 padding-left: calc(50% + 78px);
+
+
 
       .about__title{
         font-size: 30px;
@@ -521,9 +523,7 @@ padding-left: calc(50% + 78px);
     flex-basis: calc(100%/3);
     padding: 52.5px 30px;
     transition: all 0.4s;
-    @media (max-width: 790px){
-
-    }
+    
 
     &:hover{
       background-color: #709dca;
@@ -855,11 +855,9 @@ padding-left: calc(50% + 78px);
       width: 34%;
       position: relative;
       @media (max-width: 1200px){
-        max-width: 50%; 
+       
       }
-      @media (max-width: 995px){
-        width: 100%; 
-      }
+      
         .name__map{
           border:1px solid #C7C7C7 ;
         width: 307px;
@@ -871,9 +869,7 @@ padding-left: calc(50% + 78px);
           &:placeholder {
             color: #ccc;
           }
-          @media (max-width: 1200px){
-         width: 370px;
-          }
+          
         }
 
       i {
@@ -887,12 +883,8 @@ padding-left: calc(50% + 78px);
     .form__col--second{
       width: 43%;
       position: relative;
-      @media (max-width: 1200px){
-       max-width: 50%;
-      }
-      @media (max-width: 995px){
-        width: 100%; 
-      }
+      
+     
       .email__map{
         
         border:1px solid #C7C7C7 ;
