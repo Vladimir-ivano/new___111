@@ -405,6 +405,12 @@ a {
 .about .about__inner .about__content {
   padding-left: 78px;
 }
+@media (max-width: 770px) {
+  .about .about__inner .about__content {
+    padding-left: 0;
+    text-align: center;
+  }
+}
 .about .about__inner .about__content .about__title {
   font-size: 30px;
   font-family: Gotham-Black;
@@ -462,6 +468,11 @@ a {
   display: flex;
   height: 500px;
 }
+@media (max-width: 770px) {
+  .section--prise .prise__inner {
+    flex-wrap: wrap;
+  }
+}
 .section--prise .prise__inner .prise__item {
   text-align: center;
   background-color: #fff;
@@ -471,6 +482,11 @@ a {
   flex-basis: calc(100%/3);
   padding: 52.5px 30px;
   transition: all 0.4s;
+}
+@media (max-width: 770px) {
+  .section--prise .prise__inner .prise__item {
+    flex-basis: 100%;
+  }
 }
 .section--prise .prise__inner .prise__item:hover {
   background-color: #709dca;
@@ -730,7 +746,7 @@ a {
 }
 @media (max-width: 640px) {
   .section--clients .clients__inner .clients__item .clients__text {
-    text-align: left;
+    text-align: center;
     margin-bottom: 15px;
     padding-top: 15px;
   }
@@ -748,6 +764,7 @@ a {
 }
 @media (max-width: 640px) {
   .section--clients .clients__inner .clients__item .clents__name {
+    text-align: center;
     padding-bottom: 20px;
   }
 }
