@@ -439,6 +439,7 @@ background-color: $color_2;
   max-width: 100%;
   height: 625px;
   background-color: $bc;
+  flex-wrap: wrap;
   
 &::before{
   display: block;
