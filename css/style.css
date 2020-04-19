@@ -374,6 +374,7 @@ a {
   max-width: 100%;
   background-size: 50% 100%;
   height: 625px;
+  background-color: #FFC155;
 }
 .about::before {
   background: #FFC155 url(../img/work.jpg) center right no-repeat;
