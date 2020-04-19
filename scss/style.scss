@@ -450,18 +450,15 @@ background-color: $color_2;
  
   width: 50%;
 }
-@media (max-width: 770px){
-  width: 100%;
-  position: relative;
-  
-}
+
 
   .about__inner{
+    flex-basis: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     .about__content{
-padding-left: calc(50% + 78px);
+padding-left:  78px;
 
 
 
