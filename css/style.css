@@ -377,6 +377,7 @@ a {
   background-color: #FFC155;
 }
 .about::before {
+  content: "";
   background: #FFC155 url(../img/work.jpg) center right no-repeat;
   background-size: cover;
   height: 100%;
