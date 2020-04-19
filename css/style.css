@@ -389,6 +389,11 @@ a {
   display: flex;
   align-items: center;
 }
+@media (max-width: 770px) {
+  .about .about__inner {
+    flex-basis: 100%;
+  }
+}
 .about .about__inner .about__content {
   padding-left: 78px;
 }
