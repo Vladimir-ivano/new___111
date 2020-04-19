@@ -463,7 +463,7 @@ background-color: $color_2;
     align-items: center;
     @media (max-width: 770px){
       flex-basis: 100%;
-      height: 51%;
+      height: 50%;
     }
     .about__content{
    padding-left:  78px;
@@ -499,6 +499,7 @@ background-color: $color_2;
         }
       }
       .btn--about{
+        
         text-transform: uppercase;
         background-color: $bc;
         padding: 13px 31px;
