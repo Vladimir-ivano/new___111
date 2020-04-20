@@ -385,8 +385,9 @@ a {
 }
 @media (max-width: 770px) {
   .about::before {
+    background: #FFC155 url(../img/work.jpg) center center no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 50%;
   }
 }
 .about .about__inner {
@@ -420,12 +421,6 @@ a {
   line-height: 1.2;
   margin-bottom: 25px;
 }
-@media (max-width: 640px) {
-  .about .about__inner .about__content .about__title {
-    margin-bottom: 10px;
-    font-size: 25px;
-  }
-}
 .about .about__inner .about__content .about__text {
   font-size: 13px;
   font-family: "lato", sans-serif;
@@ -433,11 +428,6 @@ a {
   line-height: 1.8;
   color: #ffffff;
   margin-bottom: 52px;
-}
-@media (max-width: 640px) {
-  .about .about__inner .about__content .about__text {
-    margin-bottom: 9px;
-  }
 }
 .about .about__inner .about__content .btn--about {
   text-transform: uppercase;
