@@ -372,7 +372,7 @@ a {
 .about {
   display: flex;
   max-width: 100%;
-  height: 625px;
+  padding: 154px 0 174px 0;
   background-color: #FFC155;
   flex-wrap: wrap;
 }
