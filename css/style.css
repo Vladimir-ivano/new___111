@@ -370,9 +370,9 @@ a {
 }
 
 .about {
+  height: 100%;
   display: flex;
   max-width: 100%;
-  padding: 154px 0 174px 0;
   background-color: #FFC155;
   flex-wrap: wrap;
 }
@@ -390,6 +390,7 @@ a {
   }
 }
 .about .about__inner {
+  padding: 154px 0 174px 0;
   flex-basis: 50%;
   height: 100%;
   display: flex;

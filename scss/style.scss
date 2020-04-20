@@ -435,9 +435,10 @@ background-color: $color_2;
 
 // about
 .about{
+  height: 100%;
   display: flex;
   max-width: 100%;
-  padding: 154px 0 174px 0;
+
   background-color: $bc;
   flex-wrap: wrap;
   
@@ -457,7 +458,7 @@ background-color: $color_2;
 
 
   .about__inner{
-    
+    padding: 154px 0 174px 0;
     flex-basis: 50%;
     height: 100%;
     display: flex;
