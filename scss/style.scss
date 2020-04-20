@@ -437,7 +437,7 @@ background-color: $color_2;
 .about{
   display: flex;
   max-width: 100%;
-padding: 154px 0 174px 0;
+  padding: 154px 0 174px 0;
   background-color: $bc;
   flex-wrap: wrap;
   
@@ -447,7 +447,7 @@ padding: 154px 0 174px 0;
   background:$bc url(../img/work.jpg)
   center right no-repeat;
   background-size:cover;
-  height: 100%;
+  
   width: 50%;
   @media (max-width: 770px){
     width: 100%;
@@ -457,6 +457,7 @@ padding: 154px 0 174px 0;
 
 
   .about__inner{
+    
     flex-basis: 50%;
     height: 100%;
     display: flex;

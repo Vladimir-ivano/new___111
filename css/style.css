@@ -381,7 +381,6 @@ a {
   content: "";
   background: #FFC155 url(../img/work.jpg) center right no-repeat;
   background-size: cover;
-  height: 100%;
   width: 50%;
 }
 @media (max-width: 770px) {
